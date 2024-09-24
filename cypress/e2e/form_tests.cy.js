@@ -41,7 +41,7 @@ describe('Axiory Registration Page Tests', () => {
 
   it('Should display correct and error-free text', () => {
     cy.visit('https://my-qbgzo-qacs.sls-staging.axiory.com/register/');
-    cy.contains('Welcome to Axiory').should('exist'); // Example text check
+    cy.contains('Axiory Trade Better Together').should('exist'); 
   });
 
   it('Should load all images and media correctly', () => {
